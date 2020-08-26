@@ -1,0 +1,81 @@
+.box{
+    width: 200 px;
+    height: 200 px;
+}
+
+.list{
+    list-style: none;
+    line-height: 30px;
+}
+
+.logo{
+    width: 60px;
+}
+
+.navbar {
+    opacity: 0.9;
+    text-transform: uppercase; }
+
+#nav:hover{
+    background-color: teal;
+    border-radius: 10px;
+    transition: background-color 320ms, border-radius 320ms 
+}
+
+#nav:active{
+    background-color: slateblue;
+    border-radius: 10px;
+}
+
+#pad{
+    padding-bottom: -50px;
+}
+
+img{
+    width: 100%;
+}
+
+.icon{
+    width: 30px; 
+    height: 20px;
+    padding: 0px 5px;
+}
+.card-img-overlay{
+    padding: .5rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-container-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide{
+      padding-bottom: 25px;
+  }
+
+#image{
+    width: 10rem;
+    height: 12rem;
+}
